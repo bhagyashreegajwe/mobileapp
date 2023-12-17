@@ -1,0 +1,283 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.hero-section{
+	padding:45px 65px;
+	/*background-color:#d9332d;*/
+	background-image:linear-gradient(rgb(218,53,47,0.5),rgb(218,53,47,0.5)),url("../images/coverimg.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+}
+.hero-section header{
+	margin-bottom:145px;
+}
+
+.navbar ul li {
+	display:inline-block;
+	margin-left:7px;
+}
+.navbar ul{
+	padding-top:15px;
+}
+.navbar ul li a {
+	color:#ffffff;
+	font-size:16px;
+	font-weight:400;
+	text-transform:uppercase;
+	padding:10px;
+	position:relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar ul li a::after{
+	content:'';
+	height:3px;
+	width:0;
+	background-color:#fff;
+	bottom:0;
+	left:0;
+	position:absolute;
+	transition:all 0.7s linear;
+}
+
+.navbar ul li a:hover::after{
+	width:100%;
+}
+
+.chocolate-info h1{
+	font-size:52px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:60px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.chocolate-info p {
+	font-size:36px;
+	font-weight:100;
+	color:#fff;
+	margin-bottom:50px;
+	font-family: 'Roboto', sans-serif;
+}
+.chocolate-info button{
+	background-color: #282828;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 35px;
+    border-radius: 45px;
+    outline: none;
+    border: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.chocolate-info button i {
+	margin-right:25px;
+	font-size:45px;
+	vertical-align:middle;
+}
+.hero-section .mobile{
+	position:relative;
+}
+.hero-section .mobile img{
+	position:absolute;
+	right:20px;
+	top:-40px;
+	width:70%;
+	
+}
+
+/*.................................hero-section end......................................................*/
+
+.app-features{
+	padding: 85px 0 100px;
+}
+.app-features .features-heading h1{
+	font-size:52px;
+	font-weight:bold;
+	color:#8a8a8a;
+	text-transform:uppercase;
+	margin-bottom:45px;
+	font-family: 'Montserrat', sans-serif;
+}
+.app-features .features-heading p{
+	font-size:22px;
+	font-weight:400;
+	color:#3a3a3a;
+	margin-bottom:65px;
+	font-family: 'Roboto', sans-serif;
+}
+.featuresinfo figure{
+	width:180px;
+	height:180px;
+	margin: 0 auto 35px;
+	
+}
+
+.featuresinfo figure img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.featuresinfo h2{
+	font-size:24px;
+	font-weight:bold;
+	color:#1a1a1a;
+	text-transform:uppercase;
+	margin-bottom:45px;
+	font-family: 'Montserrat', sans-serif;
+}
+.featuresinfo p{
+	font-size:18px;
+	font-weight:400;
+	color:#646464;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*........................................................app-features end.........................................*/
+
+.fruitsection{
+	padding:200px 0px 170px;
+	background-image:linear-gradient(rgb(215,221,219,0.5),rgb(215,221,219,0.5)),url('../images/joker.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:right;
+	background-attachment: fixed;
+	overflow:hidden;
+}
+.fruitsection h2{
+	font-size:52px;
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.fruitsection p{
+	margin-top:55px;
+	margin-bottom:75px;
+	color:#585858;
+	font-size:24px;
+	font-weight:100;
+	padding-right: 25%;
+	font-family: 'Roboto', sans-serif;
+}
+.fruitsection button{
+	background-color:#d9332d;
+	padding: 18px 22px;
+	font-weight:bold;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius:45px;
+	cursor:pointer;
+	border:none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*........................................................fruit section end.........................................*/
+
+.aboutsection{
+	padding:120px 0px 120px;
+	background-color:#2e2e38;
+}
+
+.subheading{
+	margin-top:60px;
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.p-list .box{
+	width:55px;
+	height:40px;
+	background-color:#e74c3c;
+	margin-bottom:30px;
+	float:left;
+}
+
+.p-list ul li{
+	display:table;
+	clear:both;
+	width:100%;
+}
+
+.p-list ul li div{
+	float:left;
+}
+
+.p-list ul li .donut-info{
+	font-size:15px;
+	font-weight:400;
+	color:#ffffff;
+	margin-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.aboutpara{
+	margin-top:35px;
+	color:#ffffff;
+	font-size:15px;
+	font-style:italic;
+	font-family: 'Open Sans', sans-serif;
+}
+.suits{
+	margin-bottom:45px;
+}
+
+.suit-para-2{
+	font-weight:400;
+	font-size:15px;
+	color:#ffffff;
+	padding-right: 25%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.suit-sub-para{
+	font-size:11px;
+	font-weight:400;
+	color:#ffffff;
+	margin-top:12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.suit-para-1{
+	font-size:14px;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*-------------------------------------------About section end -------------------------------------------------*/
+
+.footer {
+	padding:45px 0px 40px;
+	background-color:#d7dedc;
+}
+
+.footer p, .footer a{
+	font-size:26px;
+	color:#000000;
+}
+
+.footer i{
+	font-size:30px;
+}
+
+.facebook{
+	color: #435e9e;
+}
+
+.dribbble{
+	color:#dc3b7b;
+}
+
+.twitter{
+	color:#a4e7ea;
+}
